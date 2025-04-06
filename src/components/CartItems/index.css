@@ -1,0 +1,12 @@
+.cart-heading{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.cart-container{
+    margin: 0px;
+    margin-bottom: 5px;
+}

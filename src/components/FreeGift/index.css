@@ -1,0 +1,52 @@
+
+.free-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-left: 20px;
+    box-shadow: 0.7px 0.5px 2.5px 2.5px rgb(225, 222, 222);
+    border-radius: 10px;
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+.free-gift{
+    color: green;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 7px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    
+}
+
+
+.contain{
+    margin-left: 20px;
+    width: 90px;
+    background-color: rgb(189, 238, 189);
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+
+.free-heading{
+    font-size: 20px;
+    color:#000000;
+    font-weight: 600;
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.free-price{
+    font-size: 13px;
+    color:#000000;
+    font-weight: 600;
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
