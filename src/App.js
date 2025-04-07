@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Products from "./components/Products"
 import './App.css';
 import CartSummary from "./components/CartSummary";
@@ -8,6 +8,10 @@ import CartContext from "./context/CartContext";
  const App  = () =>{
 
   const [cartList, setCartList] = useState([])
+
+  useEffect(() => {
+    document.title = "shoping-cart"
+  })
 
   const addCartItem = (items) => {
     

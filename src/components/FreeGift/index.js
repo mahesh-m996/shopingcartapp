@@ -5,7 +5,7 @@ const FreeGift = (props) => {
 
   return (
     <div>
-       {totals >= 1000 ? 
+       {totals  >= 1000 ? 
        <div className="free-container">
             <div>
               <h1 className="free-heading">Wireless Mouse</h1>

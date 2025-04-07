@@ -5,6 +5,8 @@ import FreeGift from '../FreeGift'
 const CartView = (props) => {
     const {cartDetails} = props
     const {name,price,id,quantity} = cartDetails
+    
+    
   return (
     <CartContext.Consumer>
       {value => {
